@@ -14,16 +14,16 @@
         },
         data() {
             return {
-                mapData: [{
-                        "flight_ids": "11,18,24",
-                        "from": "保山",
-                        "from_longitude": "99.1729",
-                        "from_latitude": "25.05753",
-                        "to": "南昌",
-                        "to_longitude": "115.9000015258789",
-                        "to_latitude": "28.864999771118164",
-                        "num": 483
-                    },
+                    mapData: [{
+                            "flight_ids": "11,18,24",
+                            "from": "保山",
+                            "from_longitude": "99.1729",
+                            "from_latitude": "25.05753",
+                            "to": "南昌",
+                            "to_longitude": "115.9000015258789",
+                            "to_latitude": "28.864999771118164",
+                            "num": 483
+                        },
                     {
                         "flight_ids": "32,41,53,60,68,77,81",
                         "from": "烟台",
