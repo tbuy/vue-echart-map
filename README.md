@@ -6,7 +6,7 @@
 
 The demo page is [HERE](https://tbuy.github.io/vue-echart-map/dist/).
 
-[![image](https://github.com/tbuy/vue-echart-map/tree/master/static/1.png)]
+[![demo](./static/1.png)]
 
 # API
 
