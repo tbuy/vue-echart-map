@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <EchartMap :mapData="mapData" style="width: 100%;height: 100vh" :mapOption="{
-            'title': '地图title',
+            'title': '地图',
             'titleColor': 'pink'
         }"></EchartMap>
     </div>

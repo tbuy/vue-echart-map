@@ -6,6 +6,8 @@
 
 The demo page is [HERE](https://tbuy.github.io/vue-echart-map/dist/).
 
+[![image](https://github.com/tbuy/vue-echart-map/tree/master/static/1.png)]
+
 # API
 
 
@@ -17,28 +19,27 @@ mapOption | Object | 无 | 否 | 传入的配置
 
 ### mapData
 
-现阶段key需要按照以下命名，其他随意（待升级）
+现阶段以下key值是必须有的字段，其他随意（待升级）
 
-[{
-    "from": "保山",
-    "from_longitude": "99.1729",
-    "from_latitude": "25.05753",
-    "to": "南昌",
-    "to_longitude": "115.9000015258789",
-    "to_latitude": "28.864999771118164",
-    "num": 483
-}]
+- from 出发地
+- from_longitude 出发地经度
+- from_latitude 出发地纬度
+- to 目的地
+- to_longitude 目的地经度
+- to_latitude 目的地纬度
+- num 数值
+
 
 ### mapOption
 
-配置项暂时支持以下几项
+配置项暂时支持以下几项（待升级）
 
-- title
-- titleColor
-- backgroundColor
-- areaColor
-- borderColor
-- hoverAreaColor
-- lineColor
-- trailColor
-- endColor
+- title 标题
+- titleColor 标题颜色
+- backgroundColor 背景色
+- areaColor 地图颜色
+- borderColor 地图线框颜色
+- hoverAreaColor 地图高亮颜色
+- lineColor 航线颜色
+- trailColor 轨迹颜色
+- endColor 目的地颜色
